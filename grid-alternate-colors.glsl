@@ -11,8 +11,8 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
     int gridY = int(uv.y / gridSizeY);
 
     // Time-dependent interpolation factors with offset
-    float timeFactor1 = (sin(iTime) + 1.0) / 2.0 *20.; // Oscillates between 0 and 1
-    float timeFactor2 = (sin(iTime + 3.14159) + 1.0) / 2.0 * 50.; // Offset by π radians (half cycle)
+    float timeFactor1 = (sin(iTime) + 1.0) / 2.0; // Oscillates between 0 and 1
+    float timeFactor2 = (sin(iTime + 3.14159) + 1.0) / 2.0; // Offset by π radians (half cycle)
 
     // Define base colors
     vec4 baseColor1 = vec4(1.0, 0.0, 0.0, 1.0); // Red
