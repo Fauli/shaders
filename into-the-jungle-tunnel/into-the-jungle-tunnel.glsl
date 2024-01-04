@@ -1,4 +1,4 @@
-#iChannel0 "file://texture.png"
+#iChannel0 "file://xibalba.png"
 
 
 void main() {

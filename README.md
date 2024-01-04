@@ -1,6 +1,6 @@
 # Shaders Experiments
 
-This repository contains my personal experiments with shaders (GLSL). Each experiment is a separate folder within this repository, containing the shader code and any necessary assets.
+This repository contains my personal experiments with shaders (GLSL). Each experiment is a separate file or folder within this repository, containing the shader code and any necessary assets.
 
 ## Table of Contents
 
